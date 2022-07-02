@@ -6,8 +6,8 @@ const Home = () => {
     <div className="container">
       <div className="row ">
         <div className="col-md-6 col-sm-12 mt-5">
-          <div className="title">
-            <h2 className="">We work to make</h2>
+          <div className="title text-center">
+            <h2 className="h1">We work to make</h2>
             <h2  className="">
               your <span>dreams</span> come
             </h2>
