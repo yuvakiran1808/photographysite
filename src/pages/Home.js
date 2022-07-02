@@ -14,7 +14,7 @@ const Home = () => {
             <h2 className="">true</h2>
           </div>
           <div className="contact mt-5">
-            <p className="">Contact us for any photography</p>
+            <p className="heropara">Contact us for any photography</p>
             <button className="home-btn">Contact Us</button>
           </div>
         </div>

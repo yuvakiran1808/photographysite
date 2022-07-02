@@ -111,5 +111,9 @@ span{
   p{
     padding: 0rem 0rem;
   }
+  .heropara{
+    font-size: 20px;
+    text-align: center;
+  }
   
 }
