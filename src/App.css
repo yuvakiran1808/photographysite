@@ -105,9 +105,11 @@ button:hover{
   .home-btn{
     margin-left: 5.3rem;
   }
-  h2{
-    margin-left: 4rem;
-    font-size: 1px;
+  .title{
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  p{
+    padding: 0rem 0rem;
   }
   
 }
