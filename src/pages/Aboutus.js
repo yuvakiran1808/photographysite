@@ -11,7 +11,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 mt-5">
             <h3 className="text-white text-center">BIOGRAPHY</h3>
-            <p className=" h6 text-center ">
+            <h6 className="biographytext text-white">
               Born in Madanapalle, raised in Tirupati, and forever consumed with
               answering the question: Why is that compelling? Taking pictures
               has been a part of my life for as long as I can remember. As a
@@ -25,8 +25,8 @@ const About = () => {
               every shoot is an opportunity to learn and to further develop my
               craft - discovering more about myself, and my fellow earthlings.
                
-            </p>
-            <p className="blockquote-footer text-end">YUVA SAI KIRAN</p>
+            </h6>
+            <p className="blockquote-footer text-end mt-3">YUVA SAI KIRAN</p>
           </div>
           <div className="col-md-6 mt-3">
             <img src={home2} alt="athlete" className="img-about" />
