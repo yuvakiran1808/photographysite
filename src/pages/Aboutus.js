@@ -19,7 +19,7 @@ const About = () => {
               of my pet chinchillas and our family dog. Although creating images
               has been a constant passion and interest, I spent my college years
               studying music, as an opera singer, and the Meisner method of
-              acting in NYC. It may appear off topic, but I gained immeasurable
+              acting in Tirupathi. It may appear off topic, but I gained immeasurable
               insight into what it means to work hard, with passion, vision,
               intention, and artistry. My work is an obsession, so every day and
               every shoot is an opportunity to learn and to further develop my
