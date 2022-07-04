@@ -1,12 +1,24 @@
-import React from "react";
+import React,{useRef} from "react";
 import home2 from "../img/home2.png";
-
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+  // const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_68g4anq', 'template_5b21kvb', e.target, '2jLOq1RV3jy8gaOdF')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
   return (
     <>
     <div className="container col-8 mx-auto">
       <h1 className="text-white text-center py-4">Contact us</h1>
-      <form>
+      <form onSubmit={sendEmail}>
         <div className="form-group ">
           <label htmlFor="exampleInputEmail1" className="text-white">
             Email address
@@ -17,6 +29,7 @@ const Contact = () => {
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter email"
+            name  = "email"
             required
           />
         </div>
@@ -29,6 +42,7 @@ const Contact = () => {
             className="form-control"
             id="exampleInputPassword1"
             placeholder="Enter mobile number"
+            name = "number"
             required
           />
         </div>
@@ -41,6 +55,7 @@ const Contact = () => {
             id="exampleFormControlTextarea1"
             rows="3"
             placeholder="Enter message"
+            name = "message"
             required
           ></textarea>
         </div>
